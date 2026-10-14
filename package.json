@@ -1,0 +1,13 @@
+﻿{
+  "name": "xiaodian-tutor-cf",
+  "version": "0.3.0",
+  "private": true,
+  "description": "小电 · 机电传动智能助教（Cloudflare Pages 公网版）",
+  "scripts": {
+    "dev": "wrangler pages dev web",
+    "deploy": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/publish-cf.ps1"
+  },
+  "devDependencies": {
+    "wrangler": "^3.103.0"
+  }
+}

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <radialGradient id="bg" cx="0.35" cy="0.25" r="0.9">
+      <stop offset="0" stop-color="#cfe7ff"/>
+      <stop offset="0.55" stop-color="#7ab8f5"/>
+      <stop offset="1" stop-color="#2f6fd6"/>
+    </radialGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dfeeff"/>
+    </linearGradient>
+  </defs>
+  <!-- 背景 -->
+  <circle cx="128" cy="128" r="124" fill="url(#bg)"/>
+  <circle cx="128" cy="128" r="118" fill="none" stroke="#ffffff" stroke-opacity="0.4" stroke-width="3"/>
+  <!-- 星星点缀 -->
+  <g fill="#ffffff" fill-opacity="0.8">
+    <path d="M58 46 l2.2 5.8 5.8 2.2 -5.8 2.2 -2.2 5.8 -2.2 -5.8 -5.8 -2.2 5.8 -2.2 z"/>
+    <path d="M202 66 l1.8 4.8 4.8 1.8 -4.8 1.8 -1.8 4.8 -1.8 -4.8 -4.8 -1.8 4.8 -1.8 z"/>
+    <path d="M44 196 l1.8 4.8 4.8 1.8 -4.8 1.8 -1.8 4.8 -1.8 -4.8 -4.8 -1.8 4.8 -1.8 z"/>
+  </g>
+  <!-- 天线 -->
+  <circle cx="128" cy="66" r="6" fill="#ffd54a" stroke="#ffffff" stroke-opacity="0.5" stroke-width="1.5"/>
+  <line x1="128" y1="60" x2="128" y2="42" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <path d="M128 34 l-10 12 h6.5 l-4.5 14 12 -15 h-7 z" fill="#ffd54a"/>
+  <!-- 头部 -->
+  <rect x="52" y="72" width="152" height="126" rx="36" fill="url(#face)"/>
+  <rect x="52" y="72" width="152" height="126" rx="36" fill="none" stroke="#2f6fd6" stroke-opacity="0.28" stroke-width="3"/>
+  <!-- 面屏 -->
+  <rect x="72" y="94" width="112" height="84" rx="20" fill="#2f6fd6"/>
+  <!-- 额头闪电徽章 -->
+  <path d="M128 101 l-8 9.5 h5.5 l-4.5 13 10 -13 h-6.5 z" fill="#ffd54a"/>
+  <!-- 眼睛 -->
+  <g fill="#ffffff"><circle cx="97" cy="130" r="13"/><circle cx="159" cy="130" r="13"/></g>
+  <g fill="#1f3a5f"><circle cx="99" cy="132" r="6.5"/><circle cx="161" cy="132" r="6.5"/></g>
+  <g fill="#ffffff"><circle cx="101.5" cy="129" r="2.4"/><circle cx="163.5" cy="129" r="2.4"/></g>
+  <!-- 腮红 -->
+  <g fill="#ffb066" fill-opacity="0.85"><circle cx="83" cy="146" r="7"/><circle cx="173" cy="146" r="7"/></g>
+  <!-- 微笑 -->
+  <path d="M110 152 Q128 166 146 152" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+  <!-- 齿轮配饰 -->
+  <g>
+    <circle cx="206" cy="185" r="15" fill="#ffd54a"/>
+    <circle cx="206" cy="185" r="11" fill="none" stroke="#ffd54a" stroke-width="5" stroke-dasharray="4.4 4.4"/>
+    <circle cx="206" cy="185" r="4" fill="#2f6fd6"/>
+  </g>
+</svg>
